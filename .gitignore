@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.streamlit/secrets.toml
+
+# Personal financial data
+money.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Private uploads and reports
+uploads/
+reports/*
+!reports/.gitkeep
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
